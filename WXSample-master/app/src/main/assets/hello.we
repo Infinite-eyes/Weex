@@ -1,0 +1,15 @@
+<template>
+
+    <div>
+        <text onclick="click">点击测试</text>
+    </div>
+</template>
+<script>
+		module.exports={
+			methods：{
+				click：function（）{
+					weex.requirModule('myMoudle').printLog("i am test!");
+				}
+			}
+		}
+</script>

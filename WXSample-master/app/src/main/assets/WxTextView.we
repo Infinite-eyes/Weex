@@ -1,0 +1,12 @@
+<template>
+
+	<wxtextview id='wxtextview '></wxtextview>
+
+</template>
+<script>
+		module.exports={
+			created: function(){
+				this.$el('wxtextview').focus();
+			}
+		}
+</script>
